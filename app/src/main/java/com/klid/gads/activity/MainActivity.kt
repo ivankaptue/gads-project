@@ -1,5 +1,6 @@
 package com.klid.gads.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -23,7 +24,15 @@ class MainActivity : AppCompatActivity() {
 
         title = ""
 
+        initViews()
         initTabLayout()
+    }
+
+    private fun initViews() {
+        binding.submitButton.setOnClickListener {
+            val intent = Intent(this, SubmissionActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun initTabLayout() {

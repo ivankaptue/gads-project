@@ -4,7 +4,7 @@
     android:opacity="opaque">
     <item android:drawable="@android:color/black" />
     <item
-        android:drawable="@drawable/background"
+        android:drawable="@drawable/splash"
         android:gravity="fill" />
     <item
         android:width="300dp"
