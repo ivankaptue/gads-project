@@ -14,5 +14,8 @@ The Google Africa Developer Scholarship program has sponsored 30,000 aspiring de
     <td><img src="https://github.com/ivankaptue/gads-project/blob/master/image/5.jpg"/></td>
     <td><img src="https://github.com/ivankaptue/gads-project/blob/master/image/6.jpg"/></td>
   </tr>
+  <tr>
+    <td><img src="https://github.com/ivankaptue/gads-project/blob/master/image/7.jpg"/></td>
+  </tr>
 </table>
 
