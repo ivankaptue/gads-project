@@ -53,7 +53,7 @@ object ApiFactory {
         .addConverterFactory(MoshiConverterFactory.create(moshi))
         .build().create(ApiService::class.java)
 
-    val formApiService = Retrofit.Builder()
+    val formApiService: FormApiService = Retrofit.Builder()
         .baseUrl(BASE_URL_FORM)
         .addConverterFactory(MoshiConverterFactory.create(moshi))
         .build().create(FormApiService::class.java)
